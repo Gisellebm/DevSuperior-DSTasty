@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --bg-red: #F03C42;
+  --bg-light-grey:#E5E5E5;
+  --bg-white: #fff;
+  --color-yellow: #FFF964;
+  --color-green: #02B814;
+  --color-grey: #5E5E5E;
+}
+
+* {
+  font-family: 'Poppins', 'sans-serif';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+header {
+  background-color: var(--bg-red);
+  height: 70px;
+}
+
+nav h1 {
+  color: var(--color-yellow);
+  font-size: 24px;
+  line-height: 36px;
+  padding: 17px 0;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#pizzas {
+  background-color: var(--bg-light-grey);
+  padding: 20px 0;
+}
+
+.card-pizza {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.card-pizza img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px 0 0 12px;
+}
+
+.card-pizza-text {
+  background-color: var(--bg-white);
+  height: 200px;
+  padding: 15px;
+  color: var(--color-grey);
+  border-radius: 0 12px 12px 0;
+}
+
+.card-pizza-text h3, h4 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.card-pizza-text p {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 34px;
+  margin-bottom: 22px;
+}
+
+.card-pizza-text h4 {
+  color: var(--color-green);
+}
+
+#comments h2 {
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--color-grey);
+  text-align: center;
+  padding: 38px;
+}
+
+.card-comment {
+  background-color: var(--color-yellow);
+  height: 79px;
+  padding: 25px 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.card-comment p {
+  color: var(--bg-red);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer {
+  height: 120px;
+  background-color: var(--bg-red);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .container {
+  color: var(--color-yellow);
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
